@@ -83,15 +83,14 @@ article header .info{
 }
 
 
-
-article .links{
+article ._links{
     display: flex;
     flex-direction: column;
     gap: 1em;
     padding: 1em;
 }
 
-article .links a{
+article ._links a{
     
     background-color: var(--list-color);
     border-radius: 0.5em;
@@ -103,8 +102,8 @@ article .links a{
      display: block;
     width: 100%;
 }
-article .links a:hover,
-article .links a:focus{
+article ._links a:hover,
+article ._links a:focus{
     background-color: var(--green-color);
     color: var(--background-color);
     transition: 500ms;
